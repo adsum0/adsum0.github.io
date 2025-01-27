@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<header class="header-main" style="background-image:url(' {{ site.baseurl }}/assets/img/your_background.jpg')">
+<div class="overlay-light"></div>
+  <div class="home-title">
+    <h1>{{ site.name }}</h1>  <!-- Name Section -->
+    <h3>{{ site.role }}</h3>   <!-- Position Section -->
+
+
+
+  </div>
+  {% if site.show_avatar %}
+  <a href="mailto:{{ site.email }}" class="home-avatar"></a> <!-- It will send a mail to site.email whenever clicked to avatar -->
+  {% endif %}
+</header>
