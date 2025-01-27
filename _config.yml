@@ -6,8 +6,8 @@ show_avatar: true              #Make it true if you want to make your picture vi
 name: John Doe       #It's your name
 role: John Doe's role          #It's your role
 email: johndoe@example.com     #It's your mail adress
-baseurl: ""                    #Base url setted as / as default
-url: ""                        # The base hostname & protocol for your site, e.g., http://example.com
+baseurl:             #Base url setted as / as default
+url: "https://adsum0.github.io/"                        # The base hostname & protocol for your site, e.g., http://example.com
 
 # Sections
 # Set the values to true for the sections you want to be visible on your site.
