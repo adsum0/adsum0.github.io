@@ -97,3 +97,8 @@ For more detailed instructions on deploying with GitHub Pages, visit [GitHub Pag
 2. **Starting the Jekyll Server**: The `bundle exec jekyll serve` command starts a local development server, allowing you to preview the Jekyll site on your local machine.
 3. **Configuration**: You can easily update your personal information and social media accounts in the `_config.yml` file.
 4. **Deployment**: I offer the option to deploy the site using GitHub Pages, as it is a free web hosting service that works seamlessly with Jekyll projects.
+
+
+
+### Important Note:
+**You can improve the project**: I added some empty JavaScript files and module directories, so you can improve the code by adding custom functions from scratch and using JavaScript frameworks. There is a hierarchy in the `_saas` folder that you can use to organize and add your functions.
