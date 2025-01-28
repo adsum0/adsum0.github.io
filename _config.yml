@@ -52,8 +52,7 @@ projects:
     - project_name: GitHub Projects          #You can add multiple  projects similarly.
       description: Check my github
     - project_name: Patent Application Presentation for Turkish Patent Institute (High School Project)
-      description: Developed a project focusing on the detection of pathological viruses using sensor technology in
-combination with artificial intelligence.
+      description: Developed a project focusing on the detection of pathological viruses using sensor technology in combination with artificial intelligence.
 
 
 certifications:
