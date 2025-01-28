@@ -15,11 +15,7 @@ url: ""                        # The base hostname & protocol for your site, e.g
 summary:
   value: true
   title: Professional Summary
-  index: Motivated and results-driven Information Systems Engineering student with a strong focus on
-cybersecurity. Skilled in network security, risk management, and system protection, with practical
-experience from personal projects and academic training. Proficient in using cybersecurity tools to identify
-vulnerabilities and protect data. Eager to apply theoretical knowledge in a professional setting and further
-develop expertise in information systems engineering and cybersecurity.
+  index: Motivated and results-driven Information Systems Engineering student with a strong focus oncybersecurity. Skilled in network security, risk management, and system protection, with practicalexperience from personal projects and academic training. Proficient in using cybersecurity tools to identifyvulnerabilities and protect data. Eager to apply theoretical knowledge in a professional setting and further develop expertise in information systems engineering and cybersecurity.
   #That's a professional summary
 
 experience:
