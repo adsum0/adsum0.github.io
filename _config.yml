@@ -4,7 +4,7 @@
 
 show_avatar: true              #Make it true if you want to make your picture visible
 name: Öner Efe Güngör       #It's your name
-role: Penetration Tester         #It's your role
+role: Information System Engineering Student         #It's your role
 email: onerefegungor@gmail.com     #It's your mail adress
 baseurl: ""                    #Base url setted as / as default
 url: ""                        # The base hostname & protocol for your site, e.g., http://example.com
