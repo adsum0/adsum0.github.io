@@ -3,7 +3,7 @@
 # Personal Informations
 
 show_avatar: true              #Make it true if you want to make your picture visible
-name: John Doe       #It's your name
+name: Öner Efe Güngör       #It's your name
 role: John Doe's role          #It's your role
 email: johndoe@example.com     #It's your mail adress
 baseurl: ""                    #Base url setted as / as default
