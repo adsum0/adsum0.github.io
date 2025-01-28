@@ -144,7 +144,6 @@ markdown: kramdown
 
 gems:
   - jekyll-feed
-  - jekyll-autoprefixer
 
 include:
   - assets
