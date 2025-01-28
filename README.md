@@ -102,3 +102,6 @@ For more detailed instructions on deploying with GitHub Pages, visit [GitHub Pag
 
 ### Important Note:
 **You can improve the project**: I added some empty JavaScript files and module directories, so you can improve the code by adding custom functions from scratch and using JavaScript frameworks. There is a hierarchy in the `_saas` folder that you can use to organize and add your functions.
+
+### Another Important Note:
+***If you encounter any unsolven error***: Try to create `_site` file locally then, copy the `_includes`,`_layouts`,`assets`,`_config`,`Gemfile`,`Gemfile.lock` and `index.html` files then deploy your github pages site. It is a last option for any problem you will encounter , very critical solution but not stable and effective.
