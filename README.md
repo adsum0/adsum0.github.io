@@ -1,104 +1,66 @@
-# Jekyll Simple Resume Template
+# Resume template
 
-This project is a simple, modern, and fully customizable resume template built with Jekyll. It provides an easy way to create a professional-looking resume that can be hosted anywhere, such as GitHub Pages.
+*A simple Jekyll + GitHub Pages powered resume template.*
 
-## Features
-- Simple and modern design
-- Fully customizable
-- Social media links with icons
-- Easy to add your own avatar and information
-- Easy to customize everything header background included
-- Can be hosted on GitHub Pages or other platforms
+![img](images/screenshot.png)
 
-## Getting Started
+## Docs
 
-Follow these steps to get this project running locally on your machine.
+### Running locally
 
-### Prerequisites
-- [Ruby](https://www.ruby-lang.org/en/documentation/) – Required for Jekyll.
-- [Bundler](https://bundler.io/) – Used to manage Ruby dependencies.
-- [Jekyll](https://jekyllrb.com/) – Static site generator used in this project.
+To test locally, run the following in your terminal:
 
-### Step 1: Download the Project
+1. Clone repo locally
+1. `bundle install`
+2. `bundle exec jekyll serve`
+3. Open your browser to `localhost:4000`
 
-Clone this repository to your local machine or fork it to your own GitHub account.
-```
-git clone https://github.com/zer0dayf/jekyll_simple_resume_template.git
-```
-### Step 2: Install Dependencies
-First, check if Ruby is installed on your system:
-```
-bash ruby -v
-```
-If Ruby is not installed, follow the instructions on the [Ruby website](https://www.ruby-lang.org/en/documentation/installation/)
+### Running locally with Docker
 
-Next, install Jekyll:
-```
-gem install jekyll
-```
-Check [Jekyll website](https://jekyllrb.com/docs/) for further information or any problem.
+To test locally with docker, run the following in your terminal after installing docker into your system:
 
+1. `docker image build -t resume-template .`
+2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
 
-Next, install Bundler:
-```
-gem install bundler
-```
-Once Bundler is installed, navigate to the project directory and run:
-```
-bundle install
-```
+### Customizing
 
-### Step 3: Run Jekyll Locally
-After the dependencies are installed, you can build and serve the resume locally. Run the following command (in your path wherever you cloned repository i.e. C:\your_path\jekyll_simple_resume_template): 
-```
-bundle exec jekyll serve
-```
-This will start a local server at http://localhost:4000, where you can view your resume template in a browser.
+First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
 
-### Step 4: Customize Your Resume
+#### Options/configuration
 
-Edit the `_config.yml`   file to update the following details:
+Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
 
-- **show_avatar:** Set to `true` to display your profile picture.
-- **name:** Your full name.
-- **role:** Your current job role or profession.
-- **email:** Your contact email.
-- **social media links:** Add your social media profiles such as Instagram, LinkedIn, GitHub, etc.
-- and **other sections** properly.
+[...write these out...]
 
-### Example Configuration for `_config.yml`
+#### Editing content
 
-Edit the `_config.yml` file to update the following details:
+Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
 
-```yaml
-# Profile settings
-show_avatar: true  # Set to true if you want your picture visible
-name: "John Doe's Resume"  # Your name
-role: "Software Developer"  # Your job title
-email: "johndoe@example.com"  # Your email address
-show_email_as_logo: true  # If you want to show your email as a logo
+### Publishing to GitHub Pages for free
 
-# Social Media Links
-instagram_usr: "https://instagram.com/johndoe"  # Your Instagram account
-twitter_usr: "https://twitter.com/johndoe"  # Your Twitter account
-linkedin_usr: "https://linkedin.com/in/johndoe"  # Your LinkedIn account
-github_usr: "https://github.com/johndoe"  # Your GitHub account
-medium_usr: "https://medium.com/@johndoe"  # Your Medium account
-hackerrank_usr: "https://hackerrank.com/johndoe"  # Your HackerRank account
-```
-### Step 5: Deploy Your Resume
-Once you’ve made your changes, you can deploy your resume online. Here are some options:
+[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
 
-- **GitHub Pages**: Push your project to a GitHub repository and use [GitHub Pages](https://pages.github.com/) to host your site for free.
-For more detailed instructions on deploying with GitHub Pages, visit [GitHub Pages Documentation](https://docs.github.com/en/pages).
+### Configuring with your own domain name
 
-### Additional Notes:
-1. **Installing Jekyll and Bundler**: We installed jekyll and bundler by using `gem install jekyll bundler` command. Then we used the `bundle install` command to install all dependencies. This command installs Jekyll and the required Ruby gems.
-2. **Starting the Jekyll Server**: The `bundle exec jekyll serve` command starts a local development server, allowing you to preview the Jekyll site on your local machine.
-3. **Configuration**: You can easily update your personal information and social media accounts in the `_config.yml` file.
-4. **Deployment**: I offer the option to deploy the site using GitHub Pages, as it is a free web hosting service that works seamlessly with Jekyll projects.
+To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
 
+### Themes
 
+Right now resume-template only has one theme. More are coming :soon: though. :heart:
 
-### Important Note:
-**You can improve the project**: I added some empty JavaScript files and module directories, so you can improve the code by adding custom functions from scratch and using JavaScript frameworks. There is a hierarchy in the `_saas` folder that you can use to organize and add your functions.
+## Roadmap
+
+A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
+
+## Contributing
+
+If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
+
+1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
+2. Fork the project, make changes, and submit a pull request
+
+## License
+
+The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
+
+Disclaimer: Use of Lisa M. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
