@@ -4,7 +4,7 @@
 
 show_avatar: true              #Make it true if you want to make your picture visible
 name: Öner Efe Güngör       #It's your name
-role: Information System Engineering Student         #It's your role
+role: Information Systems Engineering Student         #It's your role
 email: onerefegungor@gmail.com     #It's your mail adress
 baseurl: ""                    #Base url setted as / as default
 url: ""                        # The base hostname & protocol for your site, e.g., http://example.com
@@ -50,7 +50,7 @@ projects:
   title: Projects
   info:
     - project_name: GitHub Projects          #You can add multiple  projects similarly.
-      description: Check my github
+      description: Considered on my GitHub profile.
     - project_name: Patent Application Presentation for Turkish Patent Institute (High School Project)
       description: Developed a project focusing on the detection of pathological viruses using sensor technology in combination with artificial intelligence.
 
