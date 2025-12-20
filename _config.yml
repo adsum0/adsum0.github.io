@@ -4,7 +4,7 @@
 
 show_avatar: true              #Make it true if you want to make your picture visible
 name: Öner Efe Güngör       #It's your name
-role: Information Systems Engineering Student - Cybersecurity Focus
+role: Information Systems Engineering Student | Cybersecurity Focus
        #It's your role
 email: onerefegungor@gmail.com     #It's your mail adress
 baseurl: ""                    #Base url setted as / as default
@@ -61,7 +61,7 @@ projects:
     - project_name: Resume Website Template (Personal Portfolio) (2024)
       description: Designed and developed a responsive CV and portfolio website template used to present personal projects, skills, and experience. Focused on clean design, usability, and web-based personal branding.
 
-    - project_name: Neon Runner: Project 2084 (Mobile Game) (2025 - Present)
+    - project_name: "Neon Runner: Project 2084 (Mobile Game) (2025 - Present)"
       description: Developing a retro-futuristic platformer mobile game using modern game development tools. Responsible for game design, implementation, and deployment, with planned release on Google Play Store.
 
     - project_name: Digispark / BadUSB / Flipper Zero Payload (Educational Security Research) (2025)
