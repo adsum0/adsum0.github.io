@@ -162,21 +162,21 @@ additional2:
   value: true
   title: Additional Training & Activities
   info:
-
-    - name: "Occupational Health and Safety Training (2024) by Atilim University"
-      organization: Atilim University
+    - name: "Occupational Health and Safety Training (2024)"
+      organization: "Atilim University"
       year: 2024
-      details: Completed training on laboratory, workshop, and electrical safety practices.
-      
-      - name: "Career and Competency Meetings (2024) by Defense Industry Academy"
-      organization: Defense Industry Academy
-      year: 2024
-      details: Participated in national career and competency development events under the National Competency Initiative.
+      details: "Completed training on laboratory, workshop, and electrical safety practices."
 
-    - name: "ServSafe Alcohol Certification (2025) by National Restaurant Association"
-      organization: National Restaurant Association
+    - name: "Career and Competency Meetings (2024)"
+      organization: "Defense Industry Academy"
+      year: 2024
+      details: "Participated in national career and competency development events under the National Competency Initiative."
+
+    - name: "ServSafe Alcohol Certification (2025)"
+      organization: "National Restaurant Association"
       year: 2025
-      details: Certified in responsible alcohol service practices, emphasizing safety, compliance, and risk awareness.
+      details: "Certified in responsible alcohol service practices, emphasizing safety, compliance, and risk awareness."
+
 
 
 
