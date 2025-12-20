@@ -4,7 +4,8 @@
 
 show_avatar: true              #Make it true if you want to make your picture visible
 name: Öner Efe Güngör       #It's your name
-role: Information Systems Engineering Student         #It's your role
+role: Information Systems Engineering Student | Cybersecurity Focus
+       #It's your role
 email: onerefegungor@gmail.com     #It's your mail adress
 baseurl: ""                    #Base url setted as / as default
 url: ""                        # The base hostname & protocol for your site, e.g., http://example.com
@@ -15,21 +16,23 @@ url: ""                        # The base hostname & protocol for your site, e.g
 summary:
   value: true
   title: Professional Summary
-  index: Motivated and results-driven Information Systems Engineering student with a strong focus on cybersecurity. Skilled in network security, risk management, and system protection, with practical experience from personal projects and academic training. Proficient in using cybersecurity tools to identify vulnerabilities and protect data. Eager to apply theoretical knowledge in a professional setting and further develop expertise in information systems engineering and cybersecurity.
+  index: Information Systems Engineering student with a strong interest in cybersecurity. Solid foundation in network security, information security fundamentals, risk management, and system protection through academic coursework and hands-on projects. Experienced in vulnerability identification, basic security assessment, and data protection practices. Familiar with cybersecurity tools and security best practices. Seeking an entry-level or internship position to apply technical knowledge and further develop skills in information systems and cybersecurity.
   #That's a professional summary
 
 experience:
-  value: false
+  value: true
   title: Experiences
   info:
-    - role: John Doe being John Doe        #You can add multiple roles by copying the first one; it will work.
-      time: 2015 - Now
-      company: John Doe LLC.
-      details: I am John Doe at John Doe LLC.
-    - role: Dohn Joe being Dohn Joe
-      time: 1990 - 2000
-      company: Dohn Joe LLC.
-      details: I was Dohn Joe at Dohn Joe LLC in the past days.
+    - role: Cybersecurity Analyst Intern
+      time: 2024
+      company: Paulmark
+      details: Completed an internship as a Cybersecurity Analyst, gaining hands-on experience in security monitoring, vulnerability analysis, and basic risk assessment. Assisted in identifying potential security issues and supported defensive security practices within organizational systems.
+
+    - role: Work and Travel Program Participant
+      time: 2025
+      company: Cedar Point Amusement Park, USA
+      details: Participated in the Work and Travel program, gaining international work experience in a fast-paced and multicultural environment. Developed strong communication skills, teamwork, adaptability, and professional English usage while working in an international setting.
+
 
 education:
   value: true
@@ -49,41 +52,78 @@ projects:
   value: true
   title: Projects
   info:
-    - project_name: GitHub Projects          #You can add multiple  projects similarly.
-      description: Considered on my GitHub profile.
-    - project_name: Patent Application Presentation for Turkish Patent Institute (High School Project)
-      description: Developed a project focusing on the detection of pathological viruses using sensor technology in combination with artificial intelligence.
+    - project_name: GitHub Projects (2022 – Present)
+      description: Collection of academic and personal projects published on GitHub, including cybersecurity tools, machine learning models, and software development work.
+
+    - project_name: Patent Application Presentation for Turkish Patent Institute (2022)
+      description: Developed a project focusing on the detection of pathological viruses using sensor technology combined with artificial intelligence.
+
+    - project_name: Resume Website Template (Personal Portfolio) (2024)
+      description: Designed and developed a responsive CV and portfolio website template used to present personal projects, skills, and experience. Focused on clean design, usability, and web-based personal branding.
+
+    - project_name: Neon Runner: Project 2084 (Mobile Game) (2025 – Present)
+      description: Developing a retro-futuristic platformer mobile game using modern game development tools. Responsible for game design, implementation, and deployment, with planned release on Google Play Store.
+
+    - project_name: Digispark / BadUSB / Flipper Zero Payload (Educational Security Research) (2025)
+      description: Developed an educational BadUSB payload to demonstrate active information gathering techniques and HID attack vectors in controlled environments, focusing on endpoint security weaknesses and mitigation strategies.
+
+    - project_name: YOLO-Based Playing Card Recognition System (2025 – Present)
+      description: Trained a YOLO-based computer vision model to detect and classify playing cards. Currently developing an application to integrate the model for real-world usage, with plans to publish the project as open-source on GitHub.
+
 
 
 certifications:
   value: true
   title: Certifications
   list:
-    - cert_name: Intermediate Applied Cybersecurity Training       #You can add several certificates, and they will be displayed as "cert_name by organization" on your site.
+
+
+
+  
+    - cert_name: Intermediate Applied Cybersecurity Training (95ef9069-6046-462a-a43e-0616ee73f765) (2024)
       organization: BTK Academy & USOM
-      details: This certification equips individuals with practical knowledge and hands-on experience in various cybersecurity tools and techniques. Participants gain expertise in network security, ethical hacking, risk assessment, and implementing security measures in real-world scenarios.
-    - cert_name: Jr. Penetration Tester Path
+      details: Completed a hands-on intermediate-level cybersecurity training covering network security, security tools, incident analysis, and practical defensive techniques. 
+
+    - cert_name: Foundations of Cybersecurity (RBZAXM8XRVIS) (2025)
+      organization: Google (Coursera)
+      details: Completed an online course authorized by Google covering cybersecurity fundamentals, security principles, risk management, and threat awareness. 
+
+    - cert_name: Jr. Penetration Tester Path (Ongoing)
       organization: TryHackMe
-      details: This certification provides foundational skills for aspiring penetration testers, covering topics like network exploitation, web application security, and vulnerability assessment.
+      details: Practical learning path focused on penetration testing fundamentals, including network exploitation, web application security, and vulnerability assessment. 
+
+    - cert_name: Introduction to Information Technologies (2023)
+      organization: BTK Academy
+      details: Completed foundational training on information technologies, covering basic IT concepts, systems, and digital infrastructure. 
+
+    - cert_name: Digital Chip Design Fundamentals (2025)
+      organization: BTK Academy
+      details: Completed a 30-hour training on digital chip design fundamentals, covering basic hardware concepts and digital system design principles. 
+   
+
+
 
 skills:
   value: true
   title: Proficiency & Skills
   proficiencies:
-    - name: Python                            #They are displayed as an ordered list, similar to bullet points.
-    - name: C
-    - name: Kali Linux
-    - name: Penetration Testing
-    - name: HTML/CSS
+    - name: Python
+    - name: Linux Systems
+    - name: Cybersecurity Fundamentals
+    - name: Information Systems
+    - name: Network Fundamentals
+    - name: Risk Assessment
+    - name: Security Tools
+
 
 languages:
   value: true
   title: Languages
   info:
-    - lang: Turkish                 #They will be displayed as "John's Language - Native"
+    - lang: Turkish
       level: Native
     - lang: English
-      level: Advanced
+      level: Advanced (Professional Working Proficiency)
 
 references:
   value: true
@@ -97,12 +137,17 @@ interests:
   value: true
   title: Interests
   info:
-    - name: Researching
-      details: Dedicated to exploring and studying various topics, from technology to diverse fields of interest.
-    - name: Video Games
-      details: Enthusiast of immersive, story-driven games. Enjoys exploring different genres and staying up to date with the latest releases and gaming trends.
-    - name: Technology
-      details: Passionate about new gadgets, AI, and emerging tech trends.
+    - name: Cybersecurity Research
+      details: Exploring cybersecurity topics such as threat analysis, vulnerability discovery, and defensive security techniques.
+
+    - name: Game Development and Story-Driven Games
+      details: Interested in game development and immersive, story-driven games, focusing on game mechanics, narrative design, and user experience.
+
+    - name: Technology and Emerging Trends
+      details: Following developments in artificial intelligence, cybersecurity tools, and emerging technologies.
+
+
+
 
 additional1:
   value: false
@@ -114,18 +159,23 @@ additional1:
       details: Add more personalized content.
 
 additional2:
-  value: false
-  title: Additional Section 2                     #This is also an additional section you can add your section which holds 4 informations like year,organization etc.
+  value: true
+  title: Additional Training & Activities
   info:
-    - name: Award/Recognition Name
-      organization: Organization Name
-      year: 2023
-      details: Detailed description of the achievement.
-    - name: Award/Recognition Name 2
-      organization: Another Organization Name
-      year: 2019
-      details: Additional details about this recognition.
+    - name: ServSafe Alcohol Certification
+      organization: National Restaurant Association
+      year: 2025
+      details: Certified in responsible alcohol service practices, emphasizing safety, compliance, and risk awareness.
 
+    - name: Career and Competency Meetings
+      organization: Defense Industry Academy
+      year: 2024
+      details: Participated in national career and competency development events under the National Competency Initiative.
+
+    - name: Occupational Health and Safety Training
+      organization: Atılım University
+      year: 2024
+      details: Completed training on laboratory, workshop, and electrical safety practices.
 # Social Links
 # If you leave the links empty the logo will not be shown in your site
 
